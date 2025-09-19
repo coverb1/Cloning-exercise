@@ -11,13 +11,14 @@
 
 <body>
 
-  <div class="relative flex justify-between ">
+  <div class="relative flex justify-between  ">
     <img src="src/banner-bg.jpeg" alt="" class="rounded-b-[180px]">
-    <div class="absolute top-8 flex justify-between w-full mt-7">
-      <div class="ml-7">
-        <img src="src/logo.png" alt="">
+    
+    <div class="absolute top-8 flex justify-between w-full mt-7 p-2 ">
+      <div class="ml-16">
+        <img src="src/logo.png" alt="" class="w-32">
       </div>
-      <div class="flex mr-20 gap-20 text-white items-center text-[18px]">
+      <div class="flex mr-20 gap-7 text-white items-center text-[16px]">
         <p class="cursor-pointer hover:bg-white/20 px-3 py-2 rounded-full transition-all">Home</p>
         <p class="cursor-pointer  hover:bg-white/20 py-2 px-3 rounded-full transition-all">Our Shop</p>
         <p class="cursor-pointer  hover:bg-white/20 py-2 px-3 rounded-full transition-all">Product Details</p>
@@ -27,9 +28,11 @@
         </div>
       </div>
     </div>
+
   </div>
 
   <div class="absolute top-50 flex justify-between w-full">
+
     <div class="text-white ml-14 flex flex-col gap-5">
       <p class="font-semibold text-2xl">Welcome to Lugx</p>
       <h1 class="font-bold text-5xl">BEST GAMING SITE <br>EVER!</h1>
@@ -41,11 +44,10 @@
           <button
             class=" absolute top-1/2 right-0 -translate-y-1/2 text-black bg-red-400 px-5 py-2.5 rounded-3xl">Search
             now</button>
-
         </div>
       </div>
-
     </div>
+
     <div class="w-[300px] mr-20 relative">
       <img src="src/saver.jpeg" alt="" class="rounded-2xl">
       <div class="absolute top-10 right-5 py-2 bg-blue-500 px-4 rounded-4xl">
@@ -99,7 +101,7 @@
 
   <div class="mt-9 grid grid-cols-4 mx-10 mb-7">
 
-    <div class="bg-black/30 w-60 rounded-3xl relative pb-4">
+    <div class="bg-black/30 w-60 rounded-3xl relative pb-4 hover:text-blue-500">
       <div>
         <img src="src/game2.jpeg" alt="" class="  object-cover rounded-3xl ">
       </div>
@@ -110,7 +112,7 @@
       <div class=" flex items-center gap-5 cursor-pointer">
         <div class="flex flex-col ml-6 mt-4">
           <p class="font-bold text-black/50">Actions</p>
-          <p class="font-bold text-[20px]">Assiaons Creed</p>
+          <p class="font-bold text-[20px] hover:text-blue-600">Assiaons Creed</p>
         </div>
          <div class="mt-2.5 bg-red-500 p-2 cursor-pointer  rounded-full hover:bg-blue-500">
           <img src="src/shopping-cart.png" alt="" class="w-5">
@@ -118,18 +120,18 @@
       </div>
     </div>
 
-    <div class="bg-black/30 w-60 rounded-3xl relative">
+    <div class="bg-black/30 w-60 rounded-3xl relative hover:text-blue-500">
       <div>
         <img src="src/game1.jpeg" alt="" class=" object-cover rounded-3xl">
       </div>
-       <div class="absolute top-10 right-9 text-white font-bold bg-blue-500 px-8 rounded-2xl flex flex-col justify-center items-center">
+       <div class="absolute top-10 right-9 text-white font-bold bg-blue-700 px-8 rounded-2xl flex flex-col justify-center items-center">
         <p class="text-[15px]">$28</p>
         <p class="text-[18px]">$20</p>
       </div>
       <div class="flex items-center gap-5 cursor-pointer">
         <div class="flex flex-col ml-6 mt-4">
           <p class="font-bold text-black/50">Actions</p>
-          <p class="font-bold text-[20px]">Assiaons Creed</p>
+          <p class="font-bold text-[20px] hover:text-blue-400">Assiaons Creed</p>
         </div>
         <div class="mt-2.5 bg-red-500 p-2 cursor-pointer  rounded-full hover:bg-blue-500">
           <img src="src/shopping-cart.png" alt="" class="w-5">
@@ -137,7 +139,7 @@
       </div>
     </div>
 
-    <div class="bg-black/30 w-60 rounded-3xl relative">
+    <div class="bg-black/30 w-60 rounded-3xl relative hover:text-blue-500">
       <div>
         <img src="src/game4.jpeg" alt="" class="rounded-3xl object-cover">
       </div>
@@ -147,32 +149,135 @@
         <p class="text-[18px]">$20</p>
         
       </div>
-      <div class="flex items-center gap-5">
+      <div class="flex items-center gap-5 ">
         <div  class="flex flex-col ml-6 mt-4">
           <p class="font-bold  text-black/50">Actions</p>
-          <p class="font-bold text-[20px]">Assiaons Creed</p>
+          <p class="font-bold text-[20px] hover:text-blue-600 cursor-pointer">Assiaons Creed</p>
+        </div>
+         <div class="mt-2.5 bg-red-500 p-2 cursor-pointer  rounded-full hover:bg-blue-500">
+          <img src="src/shopping-cart.png" alt="" class="w-5">
         </div>
       </div>
     </div>
 
-    <div class="bg-black/30 rounded-3xl  relative w-60" >
+    <div class="bg-black/30 rounded-3xl  relative w-60 hover:text-blue-500" >
       <div>
         <img src="src/game3.jpeg" alt="" class="rounded-3xl object-cover">
       </div>
+      
        <div class="absolute top-10 right-9 text-white font-bold bg-blue-500 px-8 rounded-2xl flex flex-col justify-center items-center">
         <p class="text-[15px]">$28</p>
         <p class="text-[18px]">$20</p>
       </div>
-      <div>
+      <div class="flex  gap-5 items-center rounded-full ">
         <div class="flex flex-col ml-6 mt-4">
           <p class="font-bold text-black/50">Actions</p>
           <p class="font-bold text-[20px] hover:text-blue-500 transition-all cursor-pointer">Assiaons Creed</p>
         </div>
+         <div class="mt-2.5 bg-red-500 p-2 cursor-pointer  rounded-full hover:bg-blue-500">
+          <img src="src/shopping-cart.png" alt="" class="w-5">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-black/10  rounded-t-4xl ">
+
+    <div class=" flex justify-between mx-20 items-center">
+      <div class="flex flex-col mt-20 gap-5">
+        <p class="text-red-500 font-bold">Top Games</p>
+        <p class="text-4xl font-extrabold">Most played</p>
+      </div>
+      <button class="bg-red-400 px-8 py-4 rounded-full text-white font-bold">View All</button>
+    </div>
+<div class="grid grid-cols-6 mt-14 mx-32">
+    <div class="bg-white w-36 rounded-3xl pb-5">
+      <div>
+<img src="src/j2.jpeg" alt="" class="object-cover rounded-3xl">
+      </div>
+      <div class="flex flex-col justify-center items-center mt-3">
+        <p class="font-bold text-black/50">Adventure </p>
+        <p class="font-bold">Adventure Creed</p>
       </div>
     </div>
 
+    <div class="bg-white w-36 rounded-3xl">
+      <div class="">
+<img src="src/j3.jpeg" alt="" class="object-cover rounded-3xl">
+      </div>
+      <div class="flex flex-col justify-center items-center mt-3">
+        <p class="font-bold text-black/50">Adventure </p>
+        <p class="font-bold">Adventure Creed</p>
+      </div>
+    </div>
 
+    <div class="bg-white w-36 rounded-3xl">
+      <div class="">
+<img src="src/j4.jpeg" alt="" class="object-cover rounded-3xl">
+      </div>
+      <div class="flex flex-col justify-center items-center mt-3">
+        <p class="font-black text-black/50">Adventure </p>
+        <p class="font-bold text-black">Adventure Creed</p>
+      </div>
+    </div>
+
+    <div class="bg-white w-36 rounded-3xl">
+      <div class="">
+<img src="src/j5.jpeg" alt="" class="object-cover rounded-3xl">
+      </div>
+      <div class="flex flex-col justify-center items-center mt-3">
+        <p class="font-bold text-black/50">Adventure </p>
+        <p class="font-bold text-black">Adventure Creed</p>
+      </div>
+    </div>
+
+    <div class="bg-white w-36 rounded-3xl">
+      <div class="">
+<img src="src/j6.jpeg" alt="" class="object-cover rounded-3xl">
+      </div>
+      <div class="flex flex-col justify-center items-center mt-3">
+        <p class="font-bold text-black/50">Adventure </p>
+        <p class="font-bold">Adventure Creed</p>
+      </div>
+    </div>
+
+    <div class="bg-white w-36 rounded-3xl">
+      <div class="">
+<img src="src/j1.jpeg" alt="" class="object-cover rounded-3xl">
+      </div>
+      <div class="flex flex-col justify-center items-center mt-3">
+        <p class="font-bold text-black/50">Adventure </p>
+        <p class="font-bold">Adventure Creed</p>
+      </div>
+    </div>
   </div>
+  <div class="grid grid-cols-6">
+    <div class="ml-10 bg-red-400">
+      <p>Explore</p>
+    </div>
+
+     <div>
+      <p>Explore</p>
+    </div>
+
+     <div>
+      <p>Explore</p>
+    </div>
+
+     <div>
+      <p>Explore</p>
+    </div>
+
+     <div>
+      <p>Explore</p>
+    </div>
+
+     <div>
+      <p>Explore</p>
+    </div>
+  </div>
+  </div>
+
 </body>
 
 </html>
